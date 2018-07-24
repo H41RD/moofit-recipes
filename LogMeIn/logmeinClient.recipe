@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads latest grammarly disk image.</string>
+    <string>Downloads latest logmein client disk image.</string>
     <key>Identifier</key>
-    <string>com.github.autopkg.download.grammarly</string>
+    <string>com.github.autopkg.download.logMeInClient</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>Grammarly</string>
+        <string>logmeinClient</string>
         <key>DOWNLOAD_URL</key>
-        <string>https://download-editor.grammarly.com/osx/Grammarly.dmg</string>
+        <string>https://secure.logmein.com/LogMeInClientMac.dmg</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
@@ -38,11 +38,11 @@
             <key>Arguments</key>
             <dict>
                 <key>input_path</key>
-                <string>%pathname%/Grammarly.app</string>
+                <string>%pathname%/LogMeIn Client.app</string>
                 <key>strict_verification</key>
                 <false/>
                 <key>requirement</key>
-                <string>(identifier "com.grammarly.DesktopEditor")</string>
+                <string>(identifier "com.logmein.ignition")</string>
             </dict>
         </dict>
         <dict>
